@@ -1,6 +1,7 @@
 A history of the KSSE
 ===================
 
+This app is the result of a 3-day workshop at Medialab Katowice, on May 23-25 2014.
 
 Licence : GNU General Public License V3
 

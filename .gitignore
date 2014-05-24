@@ -1,4 +1,5 @@
 *.pyc
+fabfile.py
 venv/
 fabfile.py
 static/.webassets-cache/
