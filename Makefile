@@ -36,10 +36,10 @@ freeze:
 	sed -i 's/src="\//src="/g' build/*.html
 
 update_i18n:
-	pybabel extract -F babel.cfg -o translations/messages.pot .
-	pybabel update -i translations/messages.pot -d translations
+	. `pwd`/.env ; pybabel extract -F babel.cfg -o translations/messages.pot .
+	. `pwd`/.env ; pybabel update -i translations/messages.pot -d translations
 
 compile_i18n:
-	pybabel compile -d translations
+	. `pwd`/.env ; pybabel compile -d translations
 
 # EOF

@@ -7,21 +7,18 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="#start"><img src="{{ url_for("static", filename="logos/jpp.png") }}"/><span class="article_title hidden">{% trans %}Digital Arts Circus{% endtrans %}</span></a>
+			<a class="navbar-brand" href="#start"><img src="{{ url_for("static", filename="logos/medialab.png") }}"/><span class="article_title hidden">{% trans %}A history of the KSSE{% endtrans %}</span></a>
 		</div>
 		<div class="collapse navbar-collapse">
 			<div class="bookmark">
 				<ul class="nav navbar-nav chapters">
 					<li class="active"><a href="#start">{% trans %}Intro{% endtrans %}</a></li>
-					<li><a href="#bohemia">{% trans %}Code Bohemia{% endtrans %}</a></li>
-					<li><a href="#opensource">{% trans %}Open Source Art{% endtrans %}</a></li>
-					<li><a href="#market">{% trans %}Market Forces{% endtrans %}</a></li>
+					<li><a href="#anchor1">{% trans %}Anchor1{% endtrans %}</a></li>
 				</ul>
 			</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="{{ "active" if g.get('language', 'en') == "en" }}"><a href="{{ url_for("index") }}">ENGLISH</a></li>
-				<li class="{{ "active" if g.get('language', 'en') == "fr" }}"><a href="{{ url_for("page_fr") }}">FRANÇAIS</a></li>
-				<li class="{{ "active" if g.get('language', 'en') == "de" }}"><a href="{{ url_for("page_de") }}">DEUTSCH</a></li>
+				<li class="{{ "active" if g.get('language', 'en') == "pl" }}"><a href="{{ url_for("page_pl") }}">POLSKI</a></li>
 			</ul>
 		</div><!--/.nav-collapse -->
 	</div>

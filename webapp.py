@@ -53,17 +53,12 @@ def index():
 	return response
 
 
-@app.route('/fr.html')
-def page_fr():
-	g.language = "fr"
+@app.route('/pl.html')
+def page_pl():
+	g.language = "pl"
 	response = make_response(render_template('home.html'))
 	return response
 
-@app.route('/de.html')
-def page_de():
-	g.language = "de"
-	response = make_response(render_template('home.html'))
-	return response
 
 # -----------------------------------------------------------------------------
 #
@@ -75,7 +70,7 @@ def get_locale():
 	# try to guess the language from the user accept
 	# header the browser transmits.
 	if not g.get("language"):
-		g.language = request.accept_languages.best_match(['en', 'fr', 'de'])
+		g.language = request.accept_languages.best_match(['en', 'pl'])
 	return g.get("language")
 
 # -----------------------------------------------------------------------------

@@ -227,6 +227,8 @@ body, html:
 			height: 20px
 			margin-right: 5px
 			margin-bottom: 3px
+	.medialab_logo:
+		height: 40px
 
 // -------------------------------
 // LOADER
