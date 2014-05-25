@@ -59,7 +59,7 @@ body, html:
 			.lead:
 				opacity : 0
 		.lead:
-			font-size   : 4em
+			font-size   : 6em
 			text-align  : center
 			top         : 45%
 			margin      : auto
