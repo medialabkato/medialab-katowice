@@ -200,6 +200,11 @@ body, html:
 		transition-duration: .5s
 		opacity: 1
 		width: 100%
+
+.fullwidth:
+	width: 200%;
+	margin-left: -50%;
+
 // -------------------------------
 // FOOTER
 .footer:
