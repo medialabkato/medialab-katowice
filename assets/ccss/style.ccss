@@ -143,18 +143,23 @@ body, html:
 // FACTBOX
 
 .factbox:
-	width		: 100%
-	border 		: 1px #eee solid
+	width: 		100%
+	border: 	1px #eee solid
+	padding:	10px 5px
 
 	.amount:
-		font-size: 4em
+		font-size: 	4em
+		padding: 	24px 0px
+		width: 		100%
+		text-align: center
 
 	.equivalent:
 		font-size: 		.5em
 		text-transform:	uppercase
 		width:			100%
 		border-bottom:	1px #efefef solid
-		font-family : "Helvetica Neue, Helvetica, Arial"
+		font-family : 	"Helvetica Neue, Helvetica, Arial"
+		text-align: 	center
 
 	.company:
 		font-size: 		1em
