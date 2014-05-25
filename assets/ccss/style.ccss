@@ -146,6 +146,12 @@ body, html:
 
 	.workersquote:
 		font-size	: .5em
+		background-image: url('../images/SEZ-03.jpg')
+		background-position: left top
+		background-repeat: no-repeat
+		left: -50px
+		padding-left: 73px
+
 // -------------------------------
 // FACTBOX
 
