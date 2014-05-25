@@ -6,7 +6,7 @@
 # License : GNU General Public License
 # -----------------------------------------------------------------------------
 # Creation : 26-Mar-2014
-# Last mod : 10-Apr-2014
+# Last mod : 24-May-2014
 # -----------------------------------------------------------------------------
 # This file is part of Resonate2014.
 # 
@@ -91,6 +91,7 @@ class Navigation
 					iframe = $("<iframe></iframe>")
 						.attr("src"        , media.data("src"))
 						.attr("frameborder", 0)
+						.attr("scrolling", "no")
 						.attr("width"      , "100%")
 						.attr("height"     , "100%")
 					media.html(iframe)

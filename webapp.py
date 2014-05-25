@@ -56,7 +56,7 @@ def index():
 @app.route('/pl.html')
 def page_pl():
 	g.language = "pl"
-	response = make_response(render_template('home.html'))
+	response = make_response(render_template('pl.html'))
 	return response
 
 
