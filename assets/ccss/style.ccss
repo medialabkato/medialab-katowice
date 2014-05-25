@@ -137,6 +137,9 @@ body, html:
 		line-height: 1.75em
 		padding-top: 1em
 
+	.workersquote:
+		font-size: .5em
+
 // -------------------------------
 // ILLUSTRATION AND IFRAME
 .illustration, .iframe:

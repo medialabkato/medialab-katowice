@@ -11,10 +11,9 @@
 		</div>
 		<div class="collapse navbar-collapse">
 			<div class="bookmark">
-				<ul class="nav navbar-nav chapters">
-					<li class="active"><a href="#start">{% trans %}Intro{% endtrans %}</a></li>
-					<li><a href="#anchor1">{% trans %}Anchor1{% endtrans %}</a></li>
-				</ul>
+				
+				{% block menu %}{% endblock %}
+				
 			</div>
 			<ul class="nav navbar-nav navbar-right">
 				<li class="{{ "active" if g.get('language', 'en') == "en" }}"><a href="{{ url_for("index") }}">ENGLISH</a></li>
