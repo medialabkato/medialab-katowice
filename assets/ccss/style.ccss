@@ -138,7 +138,34 @@ body, html:
 		padding-top: 1em
 
 	.workersquote:
-		font-size: .5em
+		font-size	: .5em
+// -------------------------------
+// FACTBOX
+
+.factbox:
+	width		: 100%
+	border 		: 1px #eee solid
+
+	.amount:
+		font-size: 4em
+
+	.equivalent:
+		font-size: 		.5em
+		text-transform:	uppercase
+		width:			100%
+		border-bottom:	1px #efefef solid
+		font-family : "Helvetica Neue, Helvetica, Arial"
+
+	.company:
+		font-size: 		1em
+		font-weight:	bold
+		font-family : "Helvetica Neue, Helvetica, Arial"
+
+	.sector:
+		font-size: 		1em
+		font-family : "Helvetica Neue, Helvetica, Arial"
+
+
 
 // -------------------------------
 // ILLUSTRATION AND IFRAME
