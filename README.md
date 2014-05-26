@@ -4,6 +4,7 @@ Investigation on the Katowice special economic zone
 This app is the result of a 3-day workshop organized by Medialab Katowice, on May 23-25 2014.
 
 ![The group at work](https://raw.github.com/n-kb/medialab-katowice/master/static/images/group_pict.jpg)
+
 The group at work.
 
 Licence : GNU General Public License V3
