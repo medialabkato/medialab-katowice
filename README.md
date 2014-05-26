@@ -29,11 +29,6 @@ Please also install [CoffeeScript](http://coffeescript.org/)
 
 	$ make run
 
-### Locales
-
-	$ make update_i18n
-	$ make compile_i18n
-
 ### Compile the static files
 
 	$ make freeze
