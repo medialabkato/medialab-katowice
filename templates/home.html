@@ -1,13 +1,35 @@
 {% extends 'base.html' %}
 
+{% block title %}Zone Silesia{% endblock %}
+
+{% block titlenav %}Zone Silesia{% endblock %}
+
 {% block menu %}
 
 <ul class="nav navbar-nav chapters">
 	<li class="active"><a href="#start">Intro</a></li>
 	<li><a href="#Numbers">In Numbers</a></li>
 	<li><a href="#auto">Motown</a></li>
-	<li><a href="#Slavery">SEZ blues</a></li>
+	<li><a href="#zona">SEZ blues</a></li>
 </ul>
+{% endblock %}
+
+{% block footer %}
+
+				<span class="mentions">CC-BY-SA Medialab Katowice. The KSEZ Story is a result of the <a href="http://urbandatastories.eu/data-driven-journalism/">Data-driven investigation workshop</a> organised by Medialab Katowice as part of the <a href="http://urbandatastories.eu">Urban Data Stories</a> project. </span>
+			</p>
+
+			<p>
+				Workshop Leader: Nicolas Kayser-Bril (Journalism++).
+			
+				Workshop Participants: Łukasz Dziuba, Bartek Krzemiński, Karol Kuna, Zofia Oslislo, Karol Piekarski, Sebastian Sikora, Katherine Twomey, Marcin Wróbel.
+			</p>
+
+		</div>
+	</div>
+	
+</footer>
+
 {% endblock %}
 
 {% block content %}
@@ -123,7 +145,7 @@
 	<div class="illustration full" data-src="{{ url_for("static", filename="images/strike.JPG") }}" data-ratio="2.120890774">
 		<div class="title">The SEZ blues</div>
 	</div>
-	<div class="article container" id="Slavery">
+	<div class="article container" id="zona">
 		<div class="body">
 			
 			<p>In order to understand the plight of employees at the lowest level of the Katowice Special Economic Zone, we need to briefly leave the world of hard data and move towards human emotions instead. When reading hundreds of reviews, posted by mostly anonymous workers on Gowork.pl, an employee review site set up to exchange information on working conditions in several thousands of smaller and larger companies operating in Poland, and checking media reports on workers' protests, we see a much different picture of the KSEZ than the one painted in investors’ promotional material or coming from those lobbying for further development of the area.</p>

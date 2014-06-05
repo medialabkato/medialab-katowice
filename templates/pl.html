@@ -1,5 +1,9 @@
 {% extends 'base.html' %}
 
+{% block title %}Strefa Śląsk{% endblock %}
+
+{% block titlenav %}Strefa Śląsk{% endblock %}
+
 {% block menu %}
 
 <ul class="nav navbar-nav chapters">
@@ -8,6 +12,24 @@
 	<li><a href="#auto">Motown</a></li>
 	<li><a href="#zona">„Zona”</a></li>
 </ul>
+{% endblock %}
+
+{% block footer %}
+
+				<span class="mentions">CC-BY-SA Medialab Katowice. Historia KSSE jest rezultatem warsztatów <a href="http://urbandatastories.eu/data-driven-journalism/">Data-driven investigation</a> zorganizowanych przez Medialab Katowice w ramach projektu <a href="http://urbandatastories.eu">Urban Data Stories</a>. </span>
+			</p>
+
+			<p>
+				Prowadzący warsztaty: Nicolas Kayser-Bril (Journalism++).
+			
+				Uczestnicy: Łukasz Dziuba, Bartek Krzemiński, Karol Kuna, Zofia Oslislo, Karol Piekarski, Sebastian Sikora, Katherine Twomey, Marcin Wróbel.
+			</p>
+
+		</div>
+	</div>
+	
+</footer>
+
 {% endblock %}
 
 {% block content %}
@@ -30,7 +52,7 @@
 			<h3 class="fullwidth">Mapa Katowickiej Specjalnej Strefy Ekonomicznej</h3>
 			<p>Poniżej widzisz fabrykę Opla w Gliwicach. Użyj nawigacji, by zobaczyć rozmieszczenie wszystkich firm działających w Strefie</p>
 
-			<div class="iframe fullwidth" data-ratio="3" data-src="http://essseb.cartodb.com/viz/e569f4a4-ea5b-11e3-84ac-0e10bcd91c2b/embed_map?title=true&description=true&search=true&shareable=true&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=true&fullscreen=true&sublayer_options=1%7C1%7C1%7C1&sql=&sw_lat=50.30424969962705&sw_lon=18.548054695129395&ne_lat=50.34217069169922&ne_lon=18.671822547912598"></div>
+			<div class="iframe fullwidth" data-ratio="3" data-src="http://essseb.cartodb.com/viz/e569f4a4-ea5b-11e3-84ac-0e10bcd91c2b/embed_map?title=true&description=true&search=true&shareable=true&cartodb_logo=true&layer_selector=false&legends=true&scrollwheel=false&fullscreen=false&sublayer_options=1%7C1%7C1%7C1&sql=&sw_lat=50.30424969962705&sw_lon=18.548054695129395&ne_lat=50.34217069169922&ne_lon=18.671822547912598"></div>
 		</div>
 	</div>
 
